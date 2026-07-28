@@ -186,9 +186,13 @@ footer p {
     }
 
     nav{
-        flex-direction:column;
-        align-items:center;
-        gap:10px;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    nav a{
+        font-size:15px;
     }
 
 }
