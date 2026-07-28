@@ -1,0 +1,155 @@
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f5f1e8;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+    line-height:1.7;
+    max-width:1100px;
+    margin:auto;
+    padding:40px;
+}
+
+h2{
+    text-align:center;
+    font-size:42px;
+    color:#6b3d10;
+    margin-bottom:30px;
+}
+
+.introducao{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    margin-bottom:40px;
+}
+
+/* Caixa de cada religião */
+.religiao{
+    background:white;
+    margin-bottom:50px;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+    transition:0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.religiao:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,.20);
+}
+
+h3{
+    text-align:center;
+    background:#7b4d12;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:30px;
+    font-size:30px;
+}
+
+h4{
+    color:#7b4d12;
+    border-left:6px solid #c79b53;
+    padding-left:12px;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+p{
+    margin-bottom:18px;
+}
+
+strong{
+    color:#5f3307;
+}
+
+em{
+    color:#7b4d12;
+}
+
+::-webkit-scrollbar{
+    width:12px;
+}
+
+::-webkit-scrollbar-track{
+    background:#efe7d6;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#8b5a2b;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#6b3d10;
+}
+
+nav{
+    position:sticky;
+    top:0;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+    background:#7b4d12;
+    padding:15px;
+
+    border-radius:10px;
+    margin-bottom:40px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd56b;
+}
+
+.topo{
+    position:fixed;
+
+    right:25px;
+    bottom:25px;
+
+    width:50px;
+    height:50px;
+
+    background:#7b4d12;
+    color:white;
+
+    border-radius:50%;
+
+    text-align:center;
+    line-height:50px;
+
+    text-decoration:none;
+
+    font-size:25px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+.topo:hover{
+    background:#a66d2a;
+}
