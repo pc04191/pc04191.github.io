@@ -49,7 +49,7 @@ h1{
     box-shadow:0 15px 35px rgba(0,0,0,.20);
 }
 
-h2{
+h1{
     text-align:center;
     background:#7b4d12;
     color:white;
@@ -59,7 +59,7 @@ h2{
     font-size:30px;
 }
 
-h3{
+h2{
     color:#7b4d12;
     border-left:6px solid #c79b53;
     padding-left:12px;
