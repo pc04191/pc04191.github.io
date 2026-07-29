@@ -208,3 +208,47 @@ footer p {
     }
 
 }
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.botao{
+    background: #7b4d12;
+    color: white;
+    text-decoration: none;
+
+    width: 350px;
+    padding: 20px;
+
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+
+    transition: .3s;
+}
+
+.botao:hover{
+    background: #a66d2a;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+
+@media(max-width:600px){
+
+    .botao{
+        width: 100%;
+        max-width: 320px;
+        font-size: 20px;
+    }
+
+}
