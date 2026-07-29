@@ -218,12 +218,16 @@ footer p {
 }
 
 .botao{
+    display: block;
+
     background: #7b4d12;
     color: white;
     text-decoration: none;
 
     width: 350px;
     padding: 20px;
+
+    margin: 0 auto;
 
     text-align: center;
 
